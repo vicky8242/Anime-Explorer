@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(215, 216, 217);
+}
+.main-container {
+  width: 100%;
+  height: auto;
+}
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(205, 202, 202);
+  font-size: 20px;
+  font-weight: 600;
+}
+.anime-header {
+  background-color: rgb(205, 202, 202);
+}
+.select-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  min-width: fit-content;
+}
+.select-genre {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 8px;
+  background-color: white;
+}
+.search-input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: white;
+}
+.search-btn {
+  padding: 10px 30px;
+  background-color: white;
+  outline: none;
+  border-radius: 5px;
+}
+.cardlist-container {
+  height: 65vh;
+  width: 60vw;
+  border: 1px solid gray;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-around;
+  background-color: rgb(215, 216, 217);
+}
+.watchlist-container {
+  height: 65vh;
+  width: 20vw;
+  border: 1px solid gray;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.watchlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: 600;
+}
+.empty-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 400;
+  margin-top: 16rem;
+  flex-direction: column;
+}
+.footer-div {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: right;
+  margin-right: 10rem;
+}
+.prev-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.option-map {
+  width: fit-content;
+}
+.card-div {
+  width: fit-content;
+  min-height: fit-content;
+  height: 50%;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+.anime-title {
+  width: 8vw;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+}
+.loader-mainpage {
+  font-size: large;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+.dragged-div {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  padding: 5px;
+}
+.dragged-inner-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 40%;
+  height: fit-content;
+  margin-left: 10px;
+}
+.card-image-div {
+  width: fit-content;
+  height: 25vh;
+}
+.img-des-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+  color: green;
+}
+.route-image {
+  margin-right: 10px;
+}
+.anime-des-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 25px;
+  font-weight: 500;
+  color: blue;
+}
+.video-responsive-div {
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-responsive {
+  width: 70%;
+  height: 100%;
+}
+.trailer-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.trailer-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.title-background {
+  color: green;
+  font-weight: 400;
+  font-weight: 500;
+}
+.clearsearch-btn {
+  width: 20%;
+  height:fit-content;
+  min-width: fit-content;
+  padding: 0.2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 3px;
+  float:right;
+  
+}
+.searched-card-div {
+  display: flex;
+  flex-direction: column;
+}
